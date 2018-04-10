@@ -12,6 +12,6 @@ function getVideo() {
         video.play();
       })
       .catch(err => {
-        console.error(`o no error);
+        console.error(`o no error`);
       });
   }
