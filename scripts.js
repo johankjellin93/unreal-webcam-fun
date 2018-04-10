@@ -49,7 +49,7 @@ function getVideo() {
       pixels.data[i + 2] = pixels.data[i + 2] * 0.5;
     }
     return pixels;
-  }
+  } 
   
   function rgbSplit(pixels) {
     for (let i = 0; i < pixels.data.length; i+=4) {
